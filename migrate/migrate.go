@@ -12,5 +12,6 @@ func init() {
 
 func main() {
 	// Migrate the schema from post struct to database
+	// https://gorm.io/docs/index.html#Quick-Start
 	loader.DB.AutoMigrate(&models.Post{})
 }
