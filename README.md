@@ -46,7 +46,7 @@ go get -u gorm.io/gorm
 go get -u gorm.io/driver/postgres
 ```
 
-### Before we start coding execute CompileDaemon so that it will build the package in backgroud
+### Before we start coding execute CompileDaemon so that it will compaile and build the application on backgroud
 
 ```bash
 CompileDaemon -command="./web2app"
